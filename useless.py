@@ -25,3 +25,9 @@ def mul(a: float, b: float) -> float:
     Multiply two numbers
     """
     return a * b
+
+def div(a: float, b: float) -> float:
+    """
+    Divide a by b
+    """
+    return a / b
