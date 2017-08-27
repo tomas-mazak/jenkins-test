@@ -12,3 +12,10 @@ def quadratic(a: float, b: float, c: float) -> Tuple[float, float]:
     x1 = (-b + discriminant) / (2.0 * a)
     x2 = (-b - discriminant) / (2.0 * a)
     return x1, x2
+
+
+def add(a: float, b: float) -> float:
+    """
+    Add two numbers
+    """
+    return a + b
